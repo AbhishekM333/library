@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="book">
+            <div class="content">
+                <h2>Add new Book</h2>
+                <p id="error-msg"></p>
+            </div>
+          <div class="input">
+            <input type="text" name="title" placeholder="Title" id="title" required maxlength="100">
+            <input type="text" name="author" placeholder="Author" id="author" required maxlength="100">
+            <input type="number" name="pages" placeholder="Pages" id="pages" placeholder="Pages" required>
+          </div>
+            <div class="text">
+                <p>Read</p>
+                <input type="checkbox" id="read" checked>
+            </div>
+           <div class="button">
+            <button type="submit" id="submit" formmethod="dialog">Submit</button>
+           </div>
+        </form>
+    </div>
+
+    <div id="booklist">
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

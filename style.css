@@ -1,0 +1,81 @@
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230526/pngtree-an-old-bookcase-in-a-library-image_2642908.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 600px;
+    margin-left: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 53, 53);
+    margin-top: 100px;
+    
+}
+
+.content h2{
+    text-align: center;
+    color: red;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+}
+
+.input input{
+  height: 30px;
+  border-radius: 10px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.button button{
+    background-color:rgb(0, 56, 241);
+    color: white;
+}
+
+#booklist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 580px;
+    margin-left: 500px;
+    color: white;
+    margin-top: 80px;
+    gap: 50px;
+    padding: 10px;
+    background-color: rgb(53, 53, 53);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+#booklist button{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    height: 35px;
+    border-radius: 10px;
+    
+}
+
+#booklist .toggle{
+    background-color: green;
+}
